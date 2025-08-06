@@ -1,4 +1,5 @@
 import '../assets/styles/globals.css';
+import Navbar from '../components/navbar';
 
 export const metadata = {
     title: 'Airbnb Clone',
@@ -10,6 +11,7 @@ const MainLayout = ({children}) => {
     return (
         <html>
             <body>
+                <Navbar />
                 <main>
                     {children}
                 </main>
