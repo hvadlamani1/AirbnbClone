@@ -1,0 +1,17 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/lato.woff2') format('woff2'); /* Adjust the path to your font file */
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import "tailwindcss";
+@theme {
+  --font-lato: "Lato", sans-serif; /* Define your Lato font family */
+  /* You can also override the default sans font like this: */
+  --font-sans: var(--font-lato); /*  Set Lato as the default sans-serif font */
+}
