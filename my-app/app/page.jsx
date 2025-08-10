@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Hero from '../components/Hero';
+import InfoBoxes from '../components/InfoBoxes';
 
 const HomePage = () => {
     return (
-        <div className='text-red-500 text-4xl font-lato'>
-        <h1 className="text">Home Page</h1>
-
-        <Link href="/properties">View Properties</Link>
+        <div>
+            <Hero />
+            <InfoBoxes />
         </div>
     );
 }
